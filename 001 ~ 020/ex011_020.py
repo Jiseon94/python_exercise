@@ -82,3 +82,6 @@ print(int+1)
 a=48584
 b=36
 print(a*b)
+
+
+
