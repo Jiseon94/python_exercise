@@ -15,3 +15,5 @@ for i in range(len(price_list)):
     print(len(price_list)-i,price_list[i])
 
 #174
+for i in range(1,4):
+    print(90 + 10*i, price_list[i])
