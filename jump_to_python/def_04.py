@@ -5,7 +5,7 @@
 # number = input("숫자 입력하시오: ")
 # print(number)
 
-f = open("새파일.txt", "w", encoding="UTF-8")
+f = open("새파일.txt", "w", encoding="UTF-8")  #w 싹 갈아없는다는 뜻
 for i in range(1,11):
     data = "%d번째 줄입니다. \n" % i
     f.write(data)
