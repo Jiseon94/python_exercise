@@ -5,5 +5,7 @@ def print_reverse(a):
 print_reverse("python")
 
 #222
-def print_score([a,b]):
-    print()
+def print_score(list):
+    print(sum(list)/len(list))
+
+print_score([1,2,3])
