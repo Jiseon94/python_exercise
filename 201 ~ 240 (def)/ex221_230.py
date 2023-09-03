@@ -58,7 +58,9 @@ def print_5xn(line):
 print_5xn("아이엠어보이유알어걸")
 
 #227
-def print_mxn(string, int):
-    print(string)
+def print_mxn(string, number):
+    num = int(len(string)/number)
+    for i in range(num+1):
+        print(string[i*num:i*num+num])
 
-# printmxn("아이엠어보이유알어걸", 3)
+print_mxn("아이엠어보이유알어걸", 3)
